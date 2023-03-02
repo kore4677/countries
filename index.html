@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="theme">
+    <header>
+        <h3> Where in the world?</h3>
+        <a id="mode">Light Mode</a>
+        <a id="mode2" class="none">Dark Mode</a>
+    </header>
+    <div class="container">
+        <div class="search-country searchbg">
+
+            <i class="fas fa-search"></i>
+            <input type="text" name="search" id="search" placeholder="search for a country">
+        </div>
+        <select name="filter" id="dropdown" class="searchbg">
+            <option value="">Filter by continent</option>
+            <option value="africa">Africa</option>
+            <option value="america">America</option>
+            <option value="asia">Asia</option>
+            <option value="europe">Europe</option>
+            <option value="oceania">Oceania</option>
+        </select>
+
+
+    </div>
+    <div class="containerC">
+
+        <div id="countries"></div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/fceac40a79.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
