@@ -30,7 +30,7 @@ header{
     height: 35px;
     border-radius: 5px;
     border: 1px solid hsl(210, 3%, 60%);
-    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%);ææ
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%);
 }
 
 .searchbg{
@@ -76,6 +76,14 @@ header{
 .containerC{
     width: 90%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 18px auto;
 }
 #countries{
     display: flex;
